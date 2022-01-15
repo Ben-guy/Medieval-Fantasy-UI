@@ -1,0 +1,33 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "UIControls",
+            "id": "37b0a668-094a-4780-b592-dc5844cc9972",
+            "actions": [
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "c3018906-bbc3-4e6b-aba9-4668ce7466ff",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a4f5b80a-56b9-4cfe-83ec-afe49ab9581e",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
