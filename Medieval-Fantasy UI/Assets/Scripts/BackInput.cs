@@ -30,6 +30,12 @@ public class BackInput : MonoBehaviour
         controller.UIControls.Back.performed += backInput;
         controller.UIControls.Back.Enable();
     }
+
+    private void OnDisable()
+    {
+        Action.Disable();
+        controller.UIControls.Back.Disable();
+    }
     private void backInput(InputAction.CallbackContext obj)
     {
         uiScript.selectButtion(wantedButton);

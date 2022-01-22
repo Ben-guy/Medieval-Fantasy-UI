@@ -17,4 +17,17 @@ public class UIScript : MonoBehaviour
         wantedDropdown.Select();
     }
 
+    public void selectInputField(InputField wantedInputField)
+    {
+        wantedInputField.Select();
+    }
+
+    public void selectedSlider(Slider wantedSlider)
+    {
+        wantedSlider.Select();
+    }
+    public void cameraRotateX(float x)
+    {
+
+    }
 }
