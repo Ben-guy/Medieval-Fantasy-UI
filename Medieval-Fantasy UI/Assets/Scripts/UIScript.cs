@@ -30,4 +30,14 @@ public class UIScript : MonoBehaviour
     {
 
     }
+    public void moveMenuIn(Transform Menu)
+    {
+        float postionX = 150f;
+        Menu.localPosition = new Vector3(postionX, 0, 0);
+    }
+    public void moveMenuOut(Transform Menu)
+    {
+        float postionX = 25;
+        Menu.localPosition = new Vector3(postionX, 0, 0);
+    }
 }
