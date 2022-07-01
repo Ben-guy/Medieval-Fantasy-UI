@@ -7,6 +7,8 @@ using System;
 
 public class UIScript : MonoBehaviour
 {
+    public Animator an;
+
     public void selectButtion (Button wantedButton)
     {
         wantedButton.Select();
@@ -22,10 +24,16 @@ public class UIScript : MonoBehaviour
         wantedInputField.Select();
     }
 
-    public void selectedSlider(Slider wantedSlider)
+    public void selectSlider(Slider wantedSlider)
     {
         wantedSlider.Select();
     }
+
+    public void selectToggle(Toggle wantedToggle)
+    {
+        wantedToggle.Select();
+    }
+
     public void cameraRotateX(float x)
     {
 
@@ -40,4 +48,5 @@ public class UIScript : MonoBehaviour
         float postionX = 25;
         Menu.localPosition = new Vector3(postionX, 0, 0);
     }
+
 }
